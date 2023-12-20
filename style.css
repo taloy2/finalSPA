@@ -227,24 +227,58 @@ main {
 .project h3 {
     margin: 0;
 }
-.resume-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    border: 2px solid violet;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 20px auto;
-    text-align: center;
+/* Apply styles to the resume container */
+.resume {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
 }
 
-.resume {
-    width: fit-content;
-    box-sizing: border-box;
-    background-color: #333;
-    border-radius: 8px;
-    padding: 20px;
+
+.resume:hover {
+    transform: scale(1.05);
 }
+
+
+#resume-content {
+    text-align: left;
+}
+
+
+#resume-content h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+#resume-content p {
+    margin: 5px 0;
+    color: white;
+}
+
+/* Style the section headings */
+#resume-content h3 {
+    font-size: 1.5em;
+    color: black; /* Blue color, you can change it as per your design */
+    margin-top: 15px;
+}
+
+/* Style the education and experience details */
+#resume-content p {
+    margin: 5px 0;
+}
+
+/* Add some spacing between sections */
+#resume-content > *:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+
 .contact {
     max-width: 600px;
     margin: 50px auto;
@@ -303,7 +337,7 @@ main {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: violet;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -324,7 +358,7 @@ main {
 /* Style the repository links */
 .pro a {
     text-decoration: none;
-    color: #007bff; /* Blue color, you can change it as per your design */
+    color: white; /* Blue color, you can change it as per your design */
     font-weight: bold;
 }
 
