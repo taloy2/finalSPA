@@ -186,48 +186,6 @@ main {
 .person-card a:hover {
     text-decoration: underline;
 }
-.project {
-    border-radius: 10%; /* Make the entire project box circular */
-    overflow: hidden; /* Hide overflowing content to maintain the circular shape */
-    width: 300px; /* Set a fixed width to make sure it's a perfect circle */
-    height: 300px; /* Set a fixed height to make sure it's a perfect circle */
-    margin: none; /* Margin around the circular project box */
-    border-radius: 50%;
-    text-align: center;
-    margin: 50px;
-    transition: transform 0.3s;
-}
-
-.project-container {
-    text-align: center; /* Center the content within the container */
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.project h3 {
-    margin: 0;
-    padding: 90px; /* Padding inside the circular project box */
-    background-color: violet; /* Background color for the circular box */
-}
-
-.project p{
-    font-family: 'Quicksand', sans-serif;
-    font-size: large;
-}
-
-.project:hover {
-    transform: scale(1.1); /* Scale the project on hover */
-}
-
-.project-container{
-    text-align: center;
-}
-
-.project h3 {
-    margin: 0;
-}
-/* Apply styles to the resume container */
 .resume {
     max-width: 600px;
     margin: 50px auto;
