@@ -298,3 +298,41 @@ main {
     display: grid;
     gap: 15px;
 }
+/* Apply styles to the repositories container */
+.repo {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style the heading for repositories */
+.repo h2 {
+    font-size: 1.8em;
+    color: #333;
+    text-align: center;
+}
+
+/* Style the individual repository items */
+.pro {
+    margin: 15px 0;
+}
+
+/* Style the repository links */
+.pro a {
+    text-decoration: none;
+    color: #007bff; /* Blue color, you can change it as per your design */
+    font-weight: bold;
+}
+
+.pro a:hover {
+    text-decoration: underline;
+}
+
+/* Add some spacing between repository items */
+.repo div {
+    margin-bottom: 10px;
+}
