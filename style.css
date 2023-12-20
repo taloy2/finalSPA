@@ -60,11 +60,11 @@ nav a:hover {
     display: block;
     width: 0;
     height: 2px;
-    background: seagreen; /* Change the color of your hover line */
+    background: seagreen; 
     position: absolute;
     bottom: 0;
     left: 0;
-    transition: width 0.6s; /* Adjust the transition speed */
+    transition: width 0.6s; 
 }
 
 .nav a:hover::after {
@@ -127,7 +127,7 @@ main {
 .container h5{
     color: white;
     font-size: xx-large;
-  font-family: 'Quicksand', sans-serif;;
+  font-family: 'Quicksand', sans-serif;
 }
 .container h3{
     color: white;
@@ -139,9 +139,6 @@ main {
   border-radius: 4px;
   padding: 5px;
   width: 150px;
-  
-  
-  
 }
 .nav{
     height: 0%;
@@ -195,48 +192,32 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease; 
 }
-
-
 .resume:hover {
     transform: scale(1.05);
 }
-
-
 #resume-content {
     text-align: left;
 }
-
-
 #resume-content h3 {
     font-size: 1.8em;
     color: #333;
     margin-bottom: 10px;
 }
-
-
 #resume-content p {
     margin: 5px 0;
     color: white;
 }
-
-/* Style the section headings */
 #resume-content h3 {
     font-size: 1.5em;
-    color: black; /* Blue color, you can change it as per your design */
+    color: black;
     margin-top: 15px;
 }
-
-/* Style the education and experience details */
 #resume-content p {
     margin: 5px 0;
 }
-
-/* Add some spacing between sections */
 #resume-content > *:not(:last-child) {
     margin-bottom: 15px;
 }
-
-
 .contact {
     max-width: 600px;
     margin: 50px auto;
@@ -245,21 +226,15 @@ main {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-/* Style the heading */
 .contact h2 {
     font-size: 1.5em;
     color: #333;
 }
-
-/* Style the form labels */
 .contact label {
     display: block;
     margin: 10px 0 5px;
     color: #555;
 }
-
-/* Style the form inputs and textarea */
 .contact input,
 .contact textarea {
     width: 100%;
@@ -269,8 +244,6 @@ main {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
-/* Style the submit button */
 .contact button {
     background-color: #4caf50;
     color: #fff;
@@ -284,13 +257,45 @@ main {
 .contact button:hover {
     background-color: #45a049;
 }
-
-/* Add some spacing to the form elements */
 .contact form {
     display: grid;
     gap: 15px;
 }
-/* Apply styles to the repositories container */
+.project {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: violet;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    font-family: 'Quicksand', sans-serif;
+}
+.project:hover {
+    transform: scale(1.05); 
+}
+.project h2 {
+    font-size: 1.8em;
+    color: #fff;
+    text-align: center;
+}
+.project a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+}
+.project a:hover {
+    text-decoration: underline;
+}
+.project div {
+    margin-bottom: 10px;
+}
+.project h4{
+text-align: center;
+}
+.project h2{
+    color: black;
+}
 .repo {
     max-width: 800px;
     margin: 50px auto;
@@ -298,33 +303,24 @@ main {
     background-color: violet;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    font-family: 'Quicksand', sans-serif;
 }
-
-/* Style the heading for repositories */
 .repo h2 {
     font-size: 1.8em;
     color: #333;
     text-align: center;
 }
-
-/* Style the individual repository items */
 .pro {
     margin: 15px 0;
 }
-
-/* Style the repository links */
 .pro a {
     text-decoration: none;
-    color: white; /* Blue color, you can change it as per your design */
+    color: white; 
     font-weight: bold;
 }
-
 .pro a:hover {
     text-decoration: underline;
 }
-
-/* Add some spacing between repository items */
 .repo div {
     margin-bottom: 10px;
 }
