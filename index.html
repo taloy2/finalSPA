@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@300;400&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <audio controls autoplay style="display: none;">
+        <source src="Enchanted__Taylor_s_Version_.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <header>
+        <div class="container">
+            <br><br>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#" onclick="navigateTo('home')">Home</a></li>
+                    <li><a href="#" onclick="navigateTo('projects')">Projects</a></li>
+                    <li><a href="#" onclick="navigateTo('about')">About Me</a></li>
+                    <li><a href="#" onclick="navigateTo('resume')">Resume</a></li>
+                    <li><a href="#" onclick="navigateTo('contact')">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="home" class="container">
+        <h1 id="typing-text">Speak Now! <span><h5>Taloy's Version</h5></span></h1>
+    </main>
+
+    <main id="about" class="container">
+        <section class="person-card">
+            <img src="re.jpg" alt="Rey" class="img">
+            <h5>Rey Sinabianan</h5>
+            <p>balag bugo basta maro</p>
+            <p>Student No. 20212010</p>
+            <p>Github:<a href="https://github.com/taloy2">Taloy</a></p>
+        </section>
+    </main>
+
+    <main id="projects" class="container" style="display: none; cursor: pointer;">
+        <br><br>
+        <div class="project">
+            <h3>
+                <p>Rey Projects</p>
+                <a href="https://github.com/taloy2/IT21C-PROJECTS/tree/main/src">
+                    <img width="64" height="64" src="https://img.icons8.com/dusk/64/user-folder.png" alt="user-folder" />
+                </a>
+            </h3>
+        </div>
+    </main>
+    <main id="resume" class="resume">
+        <div id="resume-content">
+            <h3>Your Name</h3>
+            <p>Address: Your Address</p>
+            <p>Email: your.email@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+
+            <h3>Education</h3>
+            <p>Degree, University, Graduation Year</p>
+
+            <h3>Experience</h3>
+            <p>Job Title, Company, Dates</p>
+            <p>Responsibilities and achievements</p>
+
+            <h3>Skills</h3>
+            <p>Skill 1, Skill 2, Skill 3</p>
+
+
+        </div>
+    </main>
+    <main id="contact" class="contact">
+        <div>
+
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Sinabianan. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

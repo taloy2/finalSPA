@@ -1,0 +1,265 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    color: #333;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    background-color: transparent;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.nav{
+    text-align:center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: violet;
+    font-size: 20px;
+}
+
+nav li {
+   display: inline;
+   margin-right: 30px;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: violet;
+   font-weight:100;
+    transition: color 0.3s;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav a:hover {
+    color: white;
+}
+.nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: seagreen; /* Change the color of your hover line */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.6s; /* Adjust the transition speed */
+}
+
+.nav a:hover::after {
+    width: 100%;
+    font-weight:500;
+}
+
+.pic {
+    height: 500px;
+}
+
+main {
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.project {
+    margin-bottom: 20px;
+   
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 20px 0;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+}
+.body{
+    background-image: url(3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    color: violet;
+}
+.container h2{
+    color: white;
+    font-family: 'Tangerine';
+}
+.container p{
+    color: white;
+}
+.container h1{
+    font-size: 180px;
+    font-family: 'Tangerine';
+    color: violet;
+    height: fit-content;
+    text-align: center;
+}
+.container h5{
+    color: white;
+    font-size: xx-large;
+  font-family: 'Quicksand', sans-serif;;
+}
+.container h3{
+    color: white;
+    font-family: 'Tangerine';
+    font-size: 50px;
+}
+.img{
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  
+  
+  
+}
+.nav{
+    height: 0%;
+}
+.tv{
+    float: right;
+}
+
+.person-card {
+    transition: transform 0.3s;
+}
+.person-card p{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: gray;
+    transition: transform 0.3s;
+}
+.person-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.person-card img {
+    width: 20%;
+    border-bottom: 1px solid #ddd;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.person-card h5,
+.person-card p {
+    margin: 10px;
+}
+
+.person-card a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.person-card a:hover {
+    text-decoration: underline;
+}
+.project {
+    border-radius: 10%; /* Make the entire project box circular */
+    overflow: hidden; /* Hide overflowing content to maintain the circular shape */
+    width: 300px; /* Set a fixed width to make sure it's a perfect circle */
+    height: 300px; /* Set a fixed height to make sure it's a perfect circle */
+    margin: none; /* Margin around the circular project box */
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    margin: 50px;
+    transition: transform 0.3s;
+}
+
+.project-container {
+    text-align: center; /* Center the content within the container */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.project h3 {
+    margin: 0;
+    padding: 90px; /* Padding inside the circular project box */
+    background-color: violet; /* Background color for the circular box */
+}
+.project2{
+    border-radius: 50%; /* Make the entire project box circular */
+    overflow: hidden; /* Hide overflowing content to maintain the circular shape */
+    width: 300px; /* Set a fixed width to make sure it's a perfect circle */
+    height: 300px; /* Set a fixed height to make sure it's a perfect circle */
+    margin: none; /* Margin around the circular project box */
+    border-radius: 50%;
+    text-align: center;
+    margin: 50px;
+    transition: transform 0.3s;
+}
+.project2 h3{
+    margin: 0;
+    padding: 90px; /* Padding inside the circular project box */
+    background-color: violet; /* Background color for the circular box */
+}
+.project p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+}
+.project2 p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+}
+.project:hover, .project2:hover {
+    transform: scale(1.1); /* Scale the project on hover */
+}
+
+.project-container, .project2-container {
+    text-align: center;
+}
+
+.project h3, .project2 h3 {
+    margin: 0;
+}
+.resume-container {
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center children horizontally */
+    border: 2px solid violet;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.resume {
+    width: fit-content;
+    box-sizing: border-box;
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+}
