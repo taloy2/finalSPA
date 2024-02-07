@@ -33,7 +33,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    color: violet;
+    color: rgb(241, 230, 241);
     font-size: 20px;
 }
 
@@ -45,7 +45,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: violet;
+    color: rgb(245, 234, 245);
    font-weight:100;
     transition: color 0.3s;
     font-family: 'Roboto', sans-serif;
@@ -53,7 +53,7 @@ nav a {
 }
 
 nav a:hover {
-    color: white;
+    color: rgb(17, 243, 243);
 }
 .nav a::after {
     content: '';
@@ -84,10 +84,15 @@ main {
     color: white;
 }
 
-.project {
+.Products{
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Adjust to the desired height */
    
 }
+
 
 @media (max-width: 768px) {
     header {
@@ -103,12 +108,12 @@ main {
     }
 }
 .body{
-    background-image: url(3.jpg);
+    background-image: url(tetew.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .container{
-    color: violet;
+    color: rgb(243, 130, 243);
 }
 .container h2{
     color: white;
@@ -120,7 +125,7 @@ main {
 .container h1{
     font-size: 180px;
     font-family: 'Tangerine';
-    color: violet;
+    color: rgb(243, 238, 243);
     height: fit-content;
     text-align: center;
 }
